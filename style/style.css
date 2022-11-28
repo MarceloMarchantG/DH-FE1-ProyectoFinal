@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Be Vietnam Pro', sans-serif;
+}
+/* html{
+    width: 1440px;
+} */
+
+/* clases reutilizables */
+.flex{
+    display: flex;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.just-cent{
+    justify-content: center;
+}
+.alig-cent{
+    align-items: center;
+} 
+.just-bet{
+    justify-content: space-between;
+}
+.just-arr{
+    justify-content: space-around;
+}
+.just-eve{
+    justify-content: space-evenly;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+.bg-primary{
+    background-color: #8B48BF;
+}
+.bg-secondary{
+    background-color: rgba(249, 249, 249, 1);
+}
+.bg-switch{
+    background-color: #8B48BF;
+}
+
+
+
+.links{
+    
+    list-style: none;
+    
+} 
+.links a{
+    text-decoration: none;
+    color: rgba(36, 46, 82, 1);
+}
+.links a:hover{
+    color: rgba(36, 46, 82, 0.6);
+}
+
+.bordeprueba{
+    border: 1px solid red;
+}
+
+.header{
+    height: 174px;
+    width: 1440px;
+    justify-content: space-around;
+   
+}
+.logo{
+    height: 25px;
+    width: 107.68px;
+}
+
+.button{
+
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+.button-rev{
+    color: rgba(139, 72, 191, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+.button-num{
+    height: 43px;
+    width: 70px;
+    border-radius: 30px;
+    font-weight: 700;
+    line-height: 23px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    
+}
+
+.navbar-top{
+    width: 397px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    
+}
+
+.fc-left, .fc-right{
+    width: 540px;
+    height: 460px;
+}
+
+.fc-right{
+    width: 550px;
+    padding-left: 100px;
+    text-align: end;
+    align-items: flex-end;
+}
+.title-front-cover{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -0.035em;
+    color: rgba(35, 44, 80, 1);
+}
+.text-front-cover{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.section1{
+    margin-top: 96px;
+}
+
+.top-section{
+    height: 168px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.ts-title, .ts-text{
+    height: 88px;
+    width: 450px;
+    margin: 0 50px;
+}
+.ts-title{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: start;
+}
+.ts-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.bot-section{
+    height: 428px;
+   padding: 40px 0;
+} 
+.bs-card{
+    width: 530px;
+    height: 162px;
+    margin: 0 25px;
+}
+.bs-card p{
+    height: 104px;
+    width: 437px;
+    font-weight: 500;
+    font-size: 16.2984px;
+    line-height: 26px;
+    color: rgba(179, 178, 183, 1);
+    margin-left: 93px;
+}
+.bs-card span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.015em;
+    color: rgba(50, 56, 81, 1);
+    padding-left: 20px;
+}
+.section2{
+    height: 755px;
+}
+.section2 h3{
+    font-weight: 700;
+    font-size: 39.2143px;
+    line-height: 61px;
+    letter-spacing: -0.01em;
+    color: #242E53;
+    text-align: center;
+    margin-top: 97px;
+
+}
+.card{
+    height: 220px;
+    width: 426px;
+    margin-top: 109px;
+    margin-bottom: 45px;
+    position: relative;
+}
+.card-body{
+    text-align: center;
+}
+.card-body span{
+    font-weight: 700;
+    font-size: 16.0714px;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    color: #3F4868;
+
+}
+.card-body p{
+    width: 403px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #B9B9C1;
+    
+}
+.card-image{
+    position: relative;
+    top:-35px;
+}
+    
+.section3{
+    height: 224px;
+}
+.section3 h3{
+    height: 96px;
+    width: 393px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    border: 1px solid red;
+}
+
+
+
+
+.footer{
+    background-color: #1E1E26;
+    color: #FFFFFF;
+}
+
+/* media queries */
+
+@media (max-width:480px)  {
+ 
+    .bg-switch{
+        background-color: rgba(60, 221, 243,1);
+    }
+
+    .hidden-s{
+        display: none;
+    }
+
+    .wrap{
+        flex-wrap: wrap;
+    }
+    html{
+        width: 480px;
+    }
+  
+}
