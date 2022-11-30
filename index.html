@@ -11,9 +11,9 @@
     <title>Sportit</title>
 </head>
 <body>
-    <header class="flex alig-cent header">
+    <header class="flex alig-cent header ">
         <img class="logo" src="./img/logo.svg" alt="Sportit logo">
-        <nav class="navbar-top">
+        <nav class="navbar-top hidden-sm">
             <ul class="flex links just-bet">
                 <li><a href="#">Sport</a></li>
                 <li><a href="#">Products</a></li>
@@ -22,14 +22,15 @@
                 <li><a href="#">Community</a></li>
             </ul>
         </nav>
-        <button class="button bg-primary">Contact</button>
+        <button class="button bg-primary hidden-sm">Contact</button>
+        <img class="hidden-lg menu-icon" src="./img/icon-hamburger.svg" alt="display menu">
     </header>
-    <section class=" front-cover flex just-cent">
-        <div class="fc-left">
+    <section class=" front-cover flex just-cent ">
+        <div class="fc-left ">
             <img src="./img/padel-intro.png" alt="Paddle player">
         </div>
-        <div class=" fc-right flex-col just-arr">
-            <h1 class="title-front-cover">
+        <div class=" fc-right flex-col just-arr ">
+            <h1 class="title-front-cover ">
                 LIVE: Follow the Telcel Huawei Mexico Open 2022 for free 
             </h1>
             <p class="text-front-cover">
@@ -40,26 +41,32 @@
     </section>
     <main>
         <section class="section1 flex-col">
-            <div class="top-section bg-switch flex just-cent alig-cent">
+            <div class="top-section bg-switch flex just-cent alig-cent ">
                 <span class="ts-title ">What´s different between pros?</span>
-                <p class="ts-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet consequat purus sit amet sodales. In faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed tincidunt tincidunt.</p>
+                <p class="ts-text hidden-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet consequat purus sit amet sodales. In faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed tincidunt tincidunt.</p>
+                <p class="ts-text hidden-lg">Manage provides all the functionality your
+                    teas needs, without the complexity. Our software is tailor-made for modern digital product teams</p>
             </div>
             <div class="flex wrap just-cent alig-cent bot-section bg-secondary ">
                 <div class="bs-card ">
-                    <div>
+                    <div class=" bs-card-title">
                         <button class="bg-primary button-num">01</button>
                         <span>Track company-wide progress</span>
                     </div>
                     <p>Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
                 </div>
                 <div class="bs-card ">
-                    <button class="bg-primary button-num">02</button>
-                    <span>Advance built-in reports</span>
-                    <p>Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
+                    <div class=" bs-card-title">
+                        <button class="bg-primary button-num">02</button>
+                        <span class="">Advance built-in reports</span>
+                    </div>
+                    <p class="">Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
                 </div>
                 <div class="bs-card ">
-                    <button class="bg-primary button-num">03</button>
-                    <span>Everything you need in one place</span>
+                    <div class=" bs-card-title">
+                        <button class="bg-primary button-num">03</button>
+                        <span>Everything you need in one place</span>
+                    </div>
                     <p>Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
                 </div>
             </div>
@@ -67,7 +74,7 @@
         <section class="section2 flex-col alig-cent">
             <h3>Best of the month</h3>
             <div class="flex just-cent ">
-                <div class="card flex-col alig-cent bg-secondary hidden-s">
+                <div class="card card-hidden flex-col alig-cent bg-secondary">
                     <img class="card-image" src="./img/avatar-sanyo.png" alt="">
                     <div class="card-body  just-cent ">
                         <span>Sanyo</span>
@@ -81,7 +88,7 @@
                         <p class="">Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
                     </div>
                 </div>
-                <div class="card flex-col alig-cent bg-secondary hidden-s">
+                <div class="card card-hidden flex-col alig-cent bg-secondary">
                     <img class="card-image" src="./img/avatar-navarro.png" alt="">
                     <div class="card-body  just-cent ">
                         <span>Navarro</span>
@@ -91,7 +98,7 @@
             </div>
             <button class="button bg-primary">More</button>
         </section>
-        <div class=" section3 flex bg-switch  ">
+        <div class=" section3 flex alig-cent bg-switch  ">
             <div>
                 <h3>Get to know the best teams of the year</h3>
             </div>  
@@ -101,10 +108,10 @@
         </div>
     </main>
     <footer class="flex-col footer">
-        <div class="flex">
-            <div class="flex-col">
-                <img class="logo" src="./img/logo-footer.png" alt="Sportit logo">
-                <div class="flex">
+        <div class="flex just-eve  footer-container">
+            <div class="flex-col social-netw just-bet  ">
+                <img class="logo-foot" src="./img/logo-footer.png" alt="Sportit logo">
+                <div class="flex just-bet icons">
                     <a href="#"><img src="./img/icon-facebook.svg" alt="Facebook"></a>
                     <a href="#"><img src="./img/icon-youtube.svg" alt="Youtube"></a>
                     <a href="#"><img src="./img/icon-twitter.svg" alt="Twitter"></a>
@@ -112,26 +119,32 @@
                     <a href="#"><img src="./img/icon-instagram.svg" alt="Interest"></a>
                 </div>
             </div>
-            <div class="flex navbar-foot">
-                <ul class="flex-col links ">
-                    <li><a href="#"></a>Home</li>
-                    <li><a href="#"></a>Pricing</li>
-                    <li><a href="#"></a>Products</li>
-                    <li><a href="#"></a>About Us</li>
-                    <li><a href="#"></a>Trainning</li>
-                    <li><a href="#"></a>Community</li>
-                    <li><a href="#"></a>Privacy Policy</li>
+            <div class="flex navfoot ">
+                <ul class="flex links just-bet  navbar-foot ">
+                    <div class="nf-left flex-col just-bet ">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </div>
+                    <div class="nf-right flex-col just-bet ">
+                        <li><a href="#">Trainning</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </div>
                 </ul>
             </div>
-            <div>
+            <div class="form ">
                 <form action="" method="post">
                     <label for="email"></label>
-                    <input type="email" name="email" id="email">
-                    <button type="submit">Go</button>
+                    <input class="input" type="email" name="email" id="email" placeholder="Update in your inbox...">
+                    <button class="btn-form bg-primary" type="submit">Go</button>
                 </form>
             </div>  
         </div>
-        <span>Copyright 2020. All Rights Reserved</span>
+        <div class="copyright flex">
+            <span >Copyright 2020. All Rights Reserved</span>
+        </div>
     </footer>
 </body>
 </html>
